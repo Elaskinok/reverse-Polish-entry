@@ -111,6 +111,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="processingStack.c" />
+    <ClCompile Include="stackInArray.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="processingStack.h" />
+    <ClInclude Include="stackInArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
